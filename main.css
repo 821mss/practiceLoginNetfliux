@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+}
+body{
+    background-image: url("Netflix-Background-prueba-1.jpg");
+}
+nav img{
+    width: 200px;
+    height: 110px;
+}
+.containerMain{
+    display: flex;
+    justify-content: center;
+}
+.containerSecundary{
+    margin: 40px;
+    height: 500px;
+    width: 400px;
+    background-color: rgba(0,0,0,.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.items h1{
+    margin-bottom: 30px;
+    color: white;
+}
+.items input{
+    font-size: 15px;
+    text-align: justify;
+    margin: 20px;
+    opacity: 0.9;
+    background-color: #333;
+    border: transparent;
+    border-radius: 5px;
+    height: 50px;
+    width: 300px;
+}
+.items_submit{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 50px;
+    width: 300px;
+    background-color: #e50914;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.contenedorCheckBox{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+p{
+    color: gray;
+}
+.items_checkbox {
+    padding: 40px;
+}
+.itemsSing{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+}
+.footerMain{
+    background-color:rgba(0,0,0,.75);
+    height: 200px;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.itemsGrid{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    padding: 30px;
+    margin: 30px;
+}
